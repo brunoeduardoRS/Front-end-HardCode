@@ -1,0 +1,273 @@
+body{
+    display:flex;
+    flex-direction: end;
+    justify-content: end;
+    align-items:flex-end;
+    
+
+}
+
+#top{
+    position: absolute;
+    color: white; 
+    padding-left: 13%;
+}
+
+#icon-adjust{
+    margin-left: 28.5%;
+    margin-top: -3.5%;
+    position: absolute;
+    font-size: 12.5px;
+    
+}
+
+#icon-principal{
+    color: white;
+    font-size: 47px;
+}
+
+#complement-icon{
+    margin-top: -63px;
+    margin-left: 33%;
+}
+
+#complement-icon2{
+    
+    margin-top: -25px;
+    margin-left: 33%;
+    
+}
+
+#icons{
+    font-size: 24px;
+    margin-top: -40%;
+    margin-left: 15%;
+}
+
+#chat-top{
+    margin-left: 3%;
+}
+#circle-check{
+    margin-left: 3%;
+    position: absolute;
+    font-size: 22px;
+}
+
+#Slider{
+    width: 100%;
+    height: 800px;
+    max-height:60%;
+    position: relative;
+    margin-top: -10px;
+    
+}
+
+#carrousel img{
+    position:absolute;
+    width: 102%;
+    height: 100%;
+    opacity: 0;
+    margin-left: -8px;
+
+    filter: grayscale(100%);
+    filter: gray;
+
+    object-fit: cover;
+    transition: opacity 1000ms;
+
+    }
+
+#carrousel img.selected{
+    opacity: 1;
+}  
+
+#text{
+    padding-top: 12%;
+    padding-left: 13%;
+}
+
+#titulo{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    display: block;
+}
+
+
+#subtitulo{
+    position: absolute;
+    color: white;
+    display: inline;
+    padding-top: 5%;
+    font-weight: lighter;
+    font-size: 65px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Nome{
+    position: absolute;
+    color: white;
+    display: inline;
+    padding-top: 6%;
+    margin-left: 25%;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+#buttons{
+    padding-top: 20%;
+
+}
+
+#investidor{
+    border: none;
+    padding: 20px;
+    width: 200px;
+    position: absolute;
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+
+#startups{
+    border: 1.5px solid white;
+    border-color: white;
+    padding: 20px;
+    width: 200px;
+    position: absolute;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 18%;
+    color: white;
+    background-color: black;
+}
+#icons-text{
+    position: relative;
+}
+
+#heart{
+    position: absolute;
+    margin-left:-46px;
+    margin-top:12%;
+    font-size: 35px;
+}
+
+#text-apresentation{
+    position: absolute;
+    padding-top: 10%;
+    color: white;
+    padding-left: 16%;
+    font-size: 18px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#texto-materia2{
+    display: none;
+}
+
+#texto-materia3{
+    display: none;
+}
+
+#line{
+    background-color: gray;
+    border-radius: 2px;
+    width: 115%;
+    height: 4px;
+    margin-left: -13%;
+}
+
+#sub-line{
+    color: white;
+    border-radius: 2px;
+    background-color: white;
+    width: 33.33%;
+    height: 4px;
+    
+}
+
+#about-us{
+    margin-top: 35%;
+    position: absolute;
+
+}
+
+#title-about{  
+    font-size: 30px;
+    margin-left: 45%;
+}
+
+
+#therock{
+    margin-top: -2%;
+    margin-left: 7%;
+    filter: grayscale(100%);
+    width: 80%;
+    height: 520px;
+}
+
+
+#arrow{
+    margin-left: 45%;
+    font-size: 35px;
+    position: absolute;
+    display: block;
+}
+
+#text-about{
+    margin-top: -108%; 
+    margin-left: 104%;
+    position: absolute;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#subtitle-about{
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+#text-questions{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8%;
+    font-weight: lighter;
+}
+
+.separator{
+    background-color: gray;
+    border-radius: 2px;
+    width: 85%;
+    height: 2px;
+    opacity: 0.1;
+}
+
+#investor-button{
+    color: white;
+    margin-top: 5%;
+    background-color: black;
+    border: none;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+#icon-z{
+    margin-left: -52%;
+    position:absolute;
+    font-size: 230px;
+    color: gray;
+    opacity: 0.1;
+    padding-top: 18%;
+}
+#icon-z2{
+    margin-left: -52%;
+    padding-top: 40%;
+    position:absolute;
+    font-size: 230px;
+    color: gray;
+    opacity: 0.1;
+}
