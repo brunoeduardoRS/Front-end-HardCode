@@ -1,4 +1,4 @@
-let time = 2000,
+let time = 3000,
    currentImageIndex = 0,
    images = document.querySelectorAll("#carrousel img")
    max = 3;

@@ -61,11 +61,32 @@ body{
     margin-top: -10px;
     
 }
+#williams{
+    height: 95%;
+    width: 102%;
+}
+#image-gregor{
+    background-color: black;
+    width: 4000px;
+    height: 100%;
+}
+#gregor{
+    height: 90%;
+    width: 50%;
+    position: absolute;
+    background-color: black;
+    left: 50%;
+    background-color: black;
+}
+
+#Bono{
+    padding-left: 2%;
+    background-color: black;
+    width: 100%;
+}
 
 #carrousel img{
     position:absolute;
-    width: 102%;
-    height: 100%;
     opacity: 0;
     margin-left: -8px;
 
@@ -270,4 +291,8 @@ body{
     font-size: 230px;
     color: gray;
     opacity: 0.1;
+}
+
+#data-invest{
+    position: absolute;
 }
