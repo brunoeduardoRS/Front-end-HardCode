@@ -295,4 +295,75 @@ body{
 
 #data-invest{
     position: absolute;
+    margin-top: 30%;
+    background-color: black;
+    width: 224%;
+}
+
+#carroussel1{
+    color: white;
+    margin-left: 10%;
+    margin-top: 6%;
+}
+
+#next-prev{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    margin-top: 6%;
+    margin-left: 70%;
+}
+#next-prev i{
+    font-size: 25px;
+    position: absolute;
+
+}
+
+#arrow-next{
+    margin-left: 15px;
+}
+
+#arrow-previous{
+    margin-left: -45px;
+    color: gray;
+}
+
+
+#prev{
+    margin-left: -8%;
+    color: gray;
+}
+
+#line-button{
+    margin-left: 44%;
+    position: absolute;
+    height: 35px;
+    width: 1px;
+    background-color:white;
+    border-radius: 1.5px;
+    margin-top: -3px;
+}
+
+#next{
+    margin-left: 50px;
+}
+
+#carroussel1 h2{
+    font-size: 35px;
+}
+
+#subtitle-1{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: -1%;
+    font-weight: lighter;
+}
+
+#description{
+    position: absolute;
+    font-size: 60px;
+
+}
+
+#column-2{
 }
