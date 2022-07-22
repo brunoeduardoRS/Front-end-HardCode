@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'backtalk';
+    src: url(font/backtalk-sans-btn-light.ttf);
+}
+
 body{
     display:flex;
     flex-direction: end;
@@ -359,11 +364,149 @@ body{
     font-weight: lighter;
 }
 
-#description{
-    position: absolute;
-    font-size: 60px;
+.description{
+    font-size: 23px;
+    margin-top: 3%;
+    font-family:'backtalk';
 
 }
 
 #column-2{
+    position: absolute;
+    margin-left: 22%;
+    margin-top: -36%;
+}
+
+#line-vertical{
+    margin-top: 1%;
+    border-radius: 2px;
+    height: 55%;
+    width: 3px;
+    margin-left: 20%;
+    background-color: gray;
+    position: absolute;
+}
+
+#grafics{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -32%;
+    text-align: end;
+    font-family:'backtalk';
+    font-weight: bold;
+}
+#grafics div{
+    position: absolute;
+    height: 32px;
+    margin-left: 110%;
+}
+
+#grafics label{
+    position: absolute;
+    margin-top: -38%;
+}
+#angel-inf{
+    margin-left: 18%;
+}
+
+#pre-seed{ 
+    width: 12%;
+    background-color: white;
+    margin-top:-45%;
+    
+}
+
+#pre-inf{
+    margin-left: 32%;
+}
+
+#seed{
+    width: 65%;
+    background-color: white;
+    margin-top:-43%;
+}
+
+#seed-inf{
+    margin-left: 80%;
+}
+
+#series-A{
+    width: 300%;
+    background-color: white;
+    margin-top:-43%;
+}
+
+#A-inf{
+    margin-left: 315%;
+}
+
+#series-B{
+    width: 400%;
+    background-color: white;
+    margin-top:-43%;
+}
+
+#B-inf{
+    margin-left: 415%;
+}
+
+#series-C{
+    width: 430%;
+    background-color: white;
+    margin-top:-43%;
+}
+
+#C-inf{
+    margin-left: 445%;
+}
+
+#series-D{
+
+    width: 250%;
+    background-color: white;
+    margin-top:-43%;
+}
+
+#D-inf{
+    margin-left: 265%;
+}
+
+#series-E{
+    width: 170%;
+    background-color: white;
+    margin-top:-43%;
+}
+
+#E-inf{
+    margin-left: 185%;
+}
+
+#series-F{
+    width: 85%;
+    background-color: white;
+    margin-top:-43%;
+}
+
+#F-inf{
+    margin-left: 100%;
+}
+
+#series-G{
+    width: 240%;
+    background-color: white;
+    margin-top:-43%;
+}
+
+#G-inf{
+    margin-left: 255%;
+}
+
+#private{
+    width: 40%;
+    background-color: white;
+    margin-top:-43%;
+}
+
+#private-inf{
+    margin-left: 65%;
 }
