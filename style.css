@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'backtalk';
     src: url(font/backtalk-sans-btn-light.ttf);
+    font-family: 'artegra';
+    src: url(font/Fontspring-DEMO-artegra_sans-extended-alt-900-black.otf);
 }
 
 body{
@@ -312,16 +314,52 @@ body{
 }
 
 #data-invest{
+    margin-left: -2%;
     position: absolute;
     margin-top: 30%;
     background-color: black;
-    width: 224%;
+    width: 228%;
     height: 170%;
 }
 
-#carroussel1{
+
+#carroussel3{
+    display: none;
     color: white;
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+#carroussel3 h2{
+    font-size: 35px;
+}
+
+#carroussel2{
+    display: none;
+    color: white;
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+#data3{
+    margin-top: -10%;
     margin-left: 10%;
+    width: 100%;
+}
+#data2{
+    margin-top: 40%;
+    margin-left: 10%;
+    width: 100%;
+}
+
+#carroussel2 h2{
+    font-size: 35px;
+}
+
+#carroussel1{
+    display: block ;
+    color: white;
+    margin-left: 8%;
     margin-top: 6%;
 }
 
@@ -371,7 +409,7 @@ body{
     font-size: 35px;
 }
 
-#subtitle-1{
+.subtitle-1{
     font-size: 30px;
     font-family: sans-serif;
     margin-top: -1%;
@@ -385,18 +423,18 @@ body{
 
 }
 
-#column-2{
+.column-2{
     position: absolute;
     margin-left: 22%;
     margin-top: -36%;
 }
 
-#line-vertical{
-    margin-top: 1%;
+.line-vertical{
+    margin-top: 19%;
     border-radius: 2px;
-    height: 45%;
+    height: 35%;
     width: 3px;
-    margin-left: 20%;
+    margin-left: 28.5%;
     background-color: gray;
     position: absolute;
 }
@@ -536,14 +574,14 @@ body{
     font-weight: bold;
 }
 
-#carrousel-line{
+.carrousel-line{
     width: 80%;
     height: 3px;
     background-color: gray;
     border-radius:3%;
     position: absolute;
     margin-top: 10%; 
-    margin-left: 10%;   
+    margin-left: 5%;   
 }
 
 #line-2{
@@ -552,12 +590,13 @@ body{
     border-radius: 2px;
     margin-top: -1px;
     background-color: white;
+    margin-left: -10%;
 }
 
-#font{
+.font{
     position: absolute;
     color: white;
-    margin-top: 12%;
+    margin-top: 2%;
     margin-left: 45%;
 }
 #video{
@@ -766,7 +805,7 @@ body{
     margin-left: -20%;
     position: absolute;
     width: 230%;
-    height: 1000%;
+    height: 500%;
 }
 
 #jay-z{
@@ -821,13 +860,155 @@ body{
 }
 
 #rodape{
-    position: absolute;
-    display: inline-flex;
+    position: absolute;     
     color: black;
-    background-color: white;
-    margin-top: 80%;
-    margin-left: -20%;
-    width: 391%;
-    height: 250px;
+    margin-top: 58%;
+    margin-left: 3%;
+    
+}
 
+#exame1{
+    font-size: 40px;
+    margin-left: 10%;
+}
+#valor{
+    position: absolute;
+    font-size: 45px;
+    margin-left: 120%;
+    margin-top: -49%;
+}
+#economico{
+    position: absolute;
+    font-size: 5.4px;
+    margin-left: 147%;
+    margin-top: -46%;
+}
+#forbes{
+    position: absolute;
+    font-size: 45px;
+    margin-left: 180%;
+    margin-top: -48%;
+}
+#startse{
+    font-size: 50px;
+    margin-left: 255%;
+    margin-top: -50%;
+}
+#nexo{
+    font-size: 40px;
+    margin-left: 340%;
+    margin-top: -36%;
+    font-family: 'artegra';
+
+}
+
+#estadao{
+    font-size: 35px;
+    margin-left: 409%;
+    margin-top: -30%;
+    font-weight: bolder;
+
+}
+
+#horse{
+    position: absolute;
+    margin-left: 481%;
+    margin-top: -25%;
+    font-size: 30px;
+}
+
+#rodape-final{
+    margin-top: 25%;
+    background-color: #000000;
+    position: absolute;
+    height:300%;
+    margin-left: -17%;
+    width: 573%;
+}
+
+#rodape-collumn1{
+    position: absolute;
+    color: white;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+#rodape-collumn1 p{
+
+    font-size: 18px;
+}
+
+#rodape-collumn2{
+    position: absolute;
+    color: white;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+#rodape-collumn2 p{
+
+    font-size: 18px;
+}
+
+#rodape-collumn3{
+    position: absolute;
+    color: white;
+    margin-top: 5%;
+    margin-left: 50%;
+}
+
+#rodape-collumn3 p{
+
+    font-size: 18px;
+}
+
+#line-rodape{
+    margin-top: 25%;
+    margin-left: 10%;
+    width: 80%;
+    background-color: gray;
+    height: 2px;
+    border-radius: 2px;
+    position: absolute;
+}
+
+#rodape-ends{
+    color: white;
+    margin-top: 3%;
+    font-size: 18px;
+}
+
+#icons-end{
+    margin-left: 77%;
+    margin-top: -4%;
+    font-size: 22px;
+}
+
+#icons-end i{
+    margin-left: 6%;
+}
+
+#logo-end{
+    position: absolute;
+    color: white;
+    margin-left: 75%;
+}
+#icon-principal-end{
+    font-size: 70px;
+}
+#icon-adjust-end{
+    position: absolute;
+    margin-top:-115%;
+    margin-left: 100%;
+    font-size: 20px;
+}
+#complement-icon2-end{
+    margin-top: -100%;
+}
+#icons-end2{
+    font-size: 40PX;
+    margin-left: 10%;
+    margin-top: -40%;
+    position: absolute;
+    width: 150%;
 }
