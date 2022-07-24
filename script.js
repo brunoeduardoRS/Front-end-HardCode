@@ -11,6 +11,7 @@ let time = 3000,
         
         if (currentImageIndex >=max)
                 currentImageIndex = 0;
+                
 
         images[currentImageIndex].classList.add("selected")
     }
