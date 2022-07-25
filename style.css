@@ -324,10 +324,9 @@ body{
 
 
 #carroussel3{
-    display: none;
     color: white;
-    margin-left: 7%;
-    margin-top: 6%;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 #carroussel3 h2{
@@ -335,20 +334,20 @@ body{
 }
 
 #carroussel2{
-    display: none;
+
     color: white;
-    margin-left: 7%;
-    margin-top: 6%;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 #data3{
     margin-top: -10%;
-    margin-left: 10%;
+    margin-left: 3%;
     width: 100%;
 }
 #data2{
-    margin-top: 40%;
-    margin-left: 10%;
+    margin-top: 38%;
+    margin-left: 3%;
     width: 100%;
 }
 
@@ -357,20 +356,20 @@ body{
 }
 
 #carroussel1{
-    display: block ;
+
     color: white;
-    margin-left: 8%;
+    margin-left: 5%;
     margin-top: 6%;
 }
 
-#next-prev{
+.next-prev{
     position: absolute;
     color: white;
     font-size: 20px;
-    margin-top: 6%;
-    margin-left: 70%;
+    margin-top: 4%;
+    margin-left: 60%;
 }
-#next-prev i{
+.next-prev i{
     font-size: 25px;
     position: absolute;
 
@@ -381,18 +380,65 @@ body{
 }
 
 #arrow-previous{
-    margin-left: -45px;
+    margin-left: -60px;
     color: gray;
 }
 
 
-#prev{
-    margin-left: -8%;
+.prev{
+    margin-left: -40px;
+    border: none;
     color: gray;
 }
 
-#line-button{
-    margin-left: 44%;
+#proximo-anterior2{
+color: white;
+position: absolute;
+margin-left:26.5%;
+margin-top: -0.5%;
+width: 50%;
+
+}
+
+#proximo-anterior2 .prev{
+    color: white;
+}
+
+#proximo-anterior2 .line-button{
+    margin-left: 52%;
+}
+#proximo-anterior3 .line-button{
+    margin-left: 52%;
+}
+#proximo-anterior3 .prev{
+    color: white;
+}
+
+#proximo-anterior3 .next {
+    color: gray;
+}
+
+
+#proximo-anterior3 #arrow-previous{
+
+    color: white;
+}
+
+#proximo-anterior2 #arrow-previous{
+
+    color: white;
+}
+
+
+#proximo-anterior3{
+    position: absolute;
+    margin-left:26.5%;
+    margin-top: -0.5%;
+    width: 50%;
+}
+    
+.line-button{
+    margin-left: 35%;
     position: absolute;
     height: 35px;
     width: 1px;
@@ -401,7 +447,7 @@ body{
     margin-top: -3px;
 }
 
-#next{
+.next{
     margin-left: 50px;
 }
 
@@ -426,15 +472,15 @@ body{
 .column-2{
     position: absolute;
     margin-left: 22%;
-    margin-top: -36%;
+    margin-top: -33.5%;
 }
 
 .line-vertical{
-    margin-top: 19%;
+    margin-top: 21%;
     border-radius: 2px;
     height: 35%;
     width: 3px;
-    margin-left: 28.5%;
+    margin-left: 24.5%;
     background-color: gray;
     position: absolute;
 }
@@ -564,7 +610,7 @@ body{
 }
 
 #end{
-    margin-left: 80%;
+    margin-left: 70%;
     text-align: end;
     position: absolute;
     color: white;
@@ -583,6 +629,24 @@ body{
     margin-top: 10%; 
     margin-left: 5%;   
 }
+#carrousel-line2{
+    width: 87%;
+    height: 3px;
+    background-color: gray;
+    border-radius:3%;
+    position: absolute;
+    margin-top: 10%; 
+    margin-left: -2%;   
+}
+#carrousel-line3{
+    width: 87%;
+    height: 3px;
+    background-color: gray;
+    border-radius:3%;
+    position: absolute;
+    margin-top: 10%; 
+    margin-left: -2%;  
+}
 
 #line-2{
     width:33.32%;
@@ -591,6 +655,24 @@ body{
     margin-top: -1px;
     background-color: white;
     margin-left: -10%;
+}
+
+#line2-2{
+    width:33.32%;
+    height: 5px;
+    margin-left: 33.32%;
+    border-radius: 2px;
+    margin-top: -1px;
+    background-color: white;
+}
+
+#line3-2{
+    width:33.32%;
+    height: 5px;
+    margin-left: 66.64%;
+    border-radius: 2px;
+    margin-top: -1px;
+    background-color: white;
 }
 
 .font{

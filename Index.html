@@ -153,20 +153,22 @@
 
         <div id="data-invest">
 
-            <div id="next-prev">
-                <div id="line-button"></div>
-                <i class="fa-solid fa-angle-left"  id="arrow-previous"></i>
-                
-                <button id="prev" onclick="buttonPrev()">Anterior</button>
-                
-                <button id="next" onclick="buttonNext()">Próximo</button>
 
-                <i class="fa-solid fa-angle-right" id="arrow-next"></i>
-                
-            </div>
             <div class="line-vertical"></div>             
-            <DIV id="carroussel1" style="display:block;">
-                
+            <DIV id="carroussel1">
+
+                <div class="next-prev">
+                    <div class="line-button"></div>
+                    <i class="fa-solid fa-angle-left"  id="arrow-previous"></i>
+                    
+                    <a class="prev" onclick="buttonPrev()">Anterior</button>
+                    
+                    <a class="next" onclick="buttonNext()">Próximo</button>
+    
+                    <i class="fa-solid fa-angle-right" id="arrow-next"></i>
+                    
+                </div>
+
                 <h2>VOLUME DE INVESTIMENTO <br>POR ESTÁGIO</h2>
                 <p class="subtitle-1">Aplicados em startups no Brasil</p>
 
@@ -255,6 +257,20 @@
                     
 
                     <DIV id="carroussel2">
+
+                <div id="proximo-anterior2">        
+                <div class="next-prev">
+                    <div class="line-button"></div>
+                    <i class="fa-solid fa-angle-left"  id="arrow-previous"></i>
+                    
+                    <a class="prev" onclick="buttonPrev2()">Anterior</button>
+                    
+                    <a class="next" onclick="buttonNext2()">Próximo</button>
+    
+                    <i class="fa-solid fa-angle-right" id="arrow-next"></i>
+                    
+                </div>
+            </DIV>
                 
                         <h2>NÚMERO DE APORTES E <br>VOLUME DE INVESTIMENTOS</h2>
                         <p class="subtitle-1">Aplicados em startups no Brasil</p>
@@ -302,7 +318,7 @@
                             </div>
         
         
-                            <div class="carrousel-line">
+                            <div id="carrousel-line2">
         
                                 <div id="line2-2"></div>
                                 <p class="font">Fonte: Distrito</p> 
@@ -312,6 +328,20 @@
                             
         
                             <DIV id="carroussel3">
+
+                                    <div id="proximo-anterior3">
+                                        <div class="next-prev">
+                                            <div class="line-button"></div>
+                                            <i class="fa-solid fa-angle-left"  id="arrow-previous"></i>
+                                            
+                                            <a class="prev" onclick="buttonPrev3()">Anterior</button>
+                                            
+                                            <a class="next" onclick="buttonNext3()">Próximo</button>
+                            
+                                            <i class="fa-solid fa-angle-right" id="arrow-next"></i>
+                                            
+                                        </div>
+                                    </div>
                 
                                 <h2>NÚMERO DE APORTES E VOLUMES DE <br>INVESTIMENTO POR SETOR</h2>
                                 <p class="subtitle-1">Aplicados em startups no Brasil</p>
@@ -319,7 +349,7 @@
                 
                                     <div class="description">   
                                        
-                                       Na diversão por setores,as<br>
+                                       Na diversão por setores, as<br>
                                        fintechs lideram o quadro<br>
                                        dos mais investidos, <br>
                                        seguidos pelas retailtechs e <br>
@@ -366,7 +396,7 @@
                                     </div>
                 
                 
-                                    <div class="carrousel-line">
+                                    <div id="carrousel-line3">
                 
                                         <div id="line3-2"></div>
                                         <p class="font">Fonte: Distrito</p> 

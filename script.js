@@ -3,6 +3,10 @@ const carrosel1 = document.getElementById("carroussel1")
 const carrosel2 = document.getElementById("carroussel2")
 const carrosel3 = document.getElementById("carroussel3")
 
+carrosel1.style.display="block"
+carrosel2.style.display="none"
+carrosel3.style.display="none"
+
 
 let time = 3000,
    currentImageIndex = 0,
@@ -32,26 +36,28 @@ let time = 3000,
    window.addEventListener("load",start)
 
    function buttonNext() {
+    carrosel2.style.transition="3s ease-out 0.2s"
+    carrosel2.style.display="block"
+    carrosel1.style.display="none"
 
-    if (carrosel1.style.display="block") {
-        
-        carrosel2.style.display="block"
-        carrosel1.style.display="none"
-    }
-
-    if (carrosel2.style.display="block") {
-        $('#carroussel3').css('display','block')
-        $('#carroussel2').css('display','none')
-    }
-    if (carrosel3.style.display="block") {
-        $('#next').css('color','gray')
-        $('#arrow-next').css('color','gray')
-
-    }
 
    }
+   
+   function buttonNext2() {
 
-   function buttonPrev() {
+    carrosel3.style.display="block"
+    carrosel2.style.display="none"
+   }
 
+
+   function buttonPrev2() {
+    carrosel2.style.display="none"
+    carrosel1.style.display="block"
+}
+
+
+function buttonPrev3() {
+    carrosel3.style.display="none"
+    carrosel2.style.display="block"
 }
 
