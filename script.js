@@ -14,10 +14,12 @@ carrosel3.style.display="none"
 let time = 3000,
    currentImageIndex = 0,
    images = document.querySelectorAll("#carrousel img")
-   max = 3;
+   max = 3,
+   txt = 0,
+   tt=3;
 
 
-    function nextImage(){
+    function nextImage(){        
 
         images[currentImageIndex].classList.remove("selected")                
         currentImageIndex++
@@ -33,6 +35,26 @@ let time = 3000,
 
     }
 
+    function nextText(){
+        txt++
+        if (txt >=tt)
+        txt = 0;
+
+            if(txt=1){
+                img1.style.display="block"
+            }
+            if(txt=2){
+                img2.style.display="block"
+                img1.style.display="none"
+            }
+            if(txt=3){
+                img3.style.display="block"
+                img2.style.display="none"
+            }
+
+        }
+
+
 
    function start(){
         setInterval(()=>{
@@ -40,10 +62,10 @@ let time = 3000,
         },time)
    }
 
-   window.addEventListener("load",start)
+   window.addEventListener("load",start,nextText)
 
    function buttonNext() {
-    carrosel2.style.transition="3s ease-out 0.2s"
+    
     carrosel2.style.display="block"
     carrosel1.style.display="none"
 
