@@ -2,6 +2,9 @@
 const carrosel1 = document.getElementById("carroussel1")
 const carrosel2 = document.getElementById("carroussel2")
 const carrosel3 = document.getElementById("carroussel3")
+const img1 = document.getElementById("texto-materia")
+const img2 = document.getElementById("texto-materia2")
+const img3 = document.getElementById("texto-materia3")
 
 carrosel1.style.display="block"
 carrosel2.style.display="none"
@@ -16,14 +19,18 @@ let time = 3000,
 
     function nextImage(){
 
-        images[currentImageIndex].classList.remove("selected")        
+        images[currentImageIndex].classList.remove("selected")                
         currentImageIndex++
+        
         
         if (currentImageIndex >=max)
                 currentImageIndex = 0;
                 
 
         images[currentImageIndex].classList.add("selected")
+
+        
+
     }
 
 
